@@ -34,6 +34,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
+use GeoIp2\Database\Reader;
+
 class user_geoblocker extends rcube_plugin
 {
     public $task = 'login';
